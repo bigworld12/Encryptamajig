@@ -8,6 +8,8 @@
     <Description>.Net Core port of the Encryptamajig library</Description>
     <PackageProjectUrl>https://github.com/bigworld12/Encryptamajig</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bigworld12/Encryptamajig</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/bigworld12/Encryptamajig/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageReleaseNotes>moved to .Net Core</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
