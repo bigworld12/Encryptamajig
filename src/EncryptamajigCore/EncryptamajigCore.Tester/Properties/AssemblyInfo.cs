@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Encryptamajig")]
-[assembly: AssemblyDescription("A simple wrapper to the .NET AES encryption algorithm functionality.")]
+[assembly: AssemblyTitle("Encryptamajig.Tester")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Encryptamajig")]
-[assembly: AssemblyCopyright("Copyright © John Bubriski 2013")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("Encryptamajig.Tester")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ad445e2e-0998-4131-9941-556d7a6fcca1")]
+[assembly: Guid("c0f77ac5-9a64-472e-bff0-8d0d5bbf391e")]
 
 // Version information for an assembly consists of the following four values:
 //

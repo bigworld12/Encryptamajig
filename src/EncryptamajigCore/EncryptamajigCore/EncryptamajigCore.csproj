@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>jbubriski,ChazSII</Authors>
+    <Company />
+    <Description>.Net Core port of the Encryptamajig library</Description>
+    <PackageProjectUrl>https://github.com/bigworld12/Encryptamajig</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bigworld12/Encryptamajig</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
