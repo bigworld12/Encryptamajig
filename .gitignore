@@ -1,5 +1,5 @@
 #OS junk files
-[Tt]humbs.db
+*/[Tt]humbs.db
 *.DS_Store
 
 #Visual Studio files
@@ -24,12 +24,13 @@
 *.sdf
 *.opensdf
 *.unsuccessfulbuild
-ipch/
-obj/
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
-Ankh.NoLoad
+*ipch/
+*obj/
+*[Bb]in
+*[Dd]ebug*/
+*[Rr]elease*/
+*Ankh.NoLoad
+*.vs/*
 
 #Tooling
 _ReSharper*/
@@ -48,4 +49,4 @@ _ReSharper*/
 
 #NuGet
 packages/
-.vs/*
+

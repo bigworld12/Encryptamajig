@@ -1,11 +1,12 @@
-﻿namespace Encryptamajig.Tests
-{
-    using System;
-    using System.Diagnostics;
-    using System.Security.Cryptography;
-    using NUnit.Framework;
+﻿using System;
+using System.Diagnostics;
+using System.Security.Cryptography;
+using EncryptamajigCore;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-    [TestFixture]
+namespace Encryptamajig.Tests
+{
+    [TestClass]
     public class EncryptamajigTests
     {
         // A test credit card number
@@ -14,7 +15,7 @@
         // The key should be a random string of characters that an attacker could never guess
         private static readonly string _key = "Something you can't guess";
 
-        [Test]
+        [TestMethod]
         public void AesManaged_EncryptionRoundtripWithRandomKey_ReturnsOriginalText()
         {
             // Arrange
@@ -35,7 +36,7 @@
             Assert.AreEqual(_plainText, roundtrip);
         }
 
-        [Test]
+        [TestMethod]
         public void AesManaged_EncryptionRoundtripWithCustomInputs_ReturnsOriginalText()
         {
             // Arrange
@@ -52,7 +53,7 @@
             Assert.AreEqual(_plainText, roundtrip);
         }
 
-        [Test]
+        [TestMethod]
         public void AesManaged_ReencryptionWithSameKey_ReturnsSameText()
         {
             // Arrange
@@ -86,8 +87,8 @@
             Assert.AreNotEqual(encrypted1, encrypted2);
         }
 
-        [Test]
-        [ExpectedException(ExpectedException = typeof(CryptographicException))]
+        [TestMethod]
+        [ExpectedException(typeof(CryptographicException))]
         public void Decrypt_WithDifferentKey_ThrowsException()
         {
             // Arrange

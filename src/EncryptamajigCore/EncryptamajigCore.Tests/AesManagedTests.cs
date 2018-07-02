@@ -1,14 +1,13 @@
-﻿namespace Encryptamajig.Tests
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Diagnostics;
+using System.Security.Cryptography;
+namespace Encryptamajig.Tests
 {
-    using System;
-    using System.Diagnostics;
-    using System.Security.Cryptography;
-    using NUnit.Framework;
-
-    [TestFixture]
+    [TestClass]
     public class AesManagedTests
     {
-        [Test]
+        [TestMethod]
         public void AesManaged_NewInstances_ReturnsNewKeyAndIv()
         {
             // Arrange
@@ -16,11 +15,11 @@
             var aesManaged = new AesManaged();
             var aesManaged2 = new AesManaged();
 
-            Debug.WriteLine(Convert.ToBase64String(aesManaged.Key));
-            Debug.WriteLine(Convert.ToBase64String(aesManaged2.Key));
+            Console.WriteLine(Convert.ToBase64String(aesManaged.Key));
+            Console.WriteLine(Convert.ToBase64String(aesManaged2.Key));
 
-            Debug.WriteLine(Convert.ToBase64String(aesManaged.IV));
-            Debug.WriteLine(Convert.ToBase64String(aesManaged2.IV));
+            Console.WriteLine(Convert.ToBase64String(aesManaged.IV));
+            Console.WriteLine(Convert.ToBase64String(aesManaged2.IV));
 
             // Assert
             Assert.AreNotEqual(aesManaged.Key, aesManaged2.Key);
