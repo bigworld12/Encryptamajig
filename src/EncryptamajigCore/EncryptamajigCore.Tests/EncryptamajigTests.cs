@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using EncryptamajigCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Encryptamajig.Tests
+namespace EncryptamajigCore.Tests
 {
     [TestClass]
     public class EncryptamajigTests

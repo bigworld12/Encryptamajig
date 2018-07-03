@@ -31,6 +31,7 @@
 *[Rr]elease*/
 *Ankh.NoLoad
 *.vs/*
+src/EncryptamajigCore/.vs/
 
 #Tooling
 _ReSharper*/

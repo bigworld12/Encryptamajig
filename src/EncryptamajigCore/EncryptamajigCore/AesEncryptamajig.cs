@@ -10,7 +10,7 @@ namespace EncryptamajigCore
     /// Make sure to save the Key if you want to decrypt your data later!
     /// If you're using this with a Web app, put the key in the web.config and encrypt the web.config.
     /// </summary>
-    public class AesEncryptamajig
+    public static class AesEncryptamajig
     {
         // Preconfigured Encryption Parameters
         public static readonly int BlockBitSize = 128;  // To be sure we get the correct IV size, set the block size

@@ -2,7 +2,7 @@
 using System;
 using System.Diagnostics;
 using System.Security.Cryptography;
-namespace Encryptamajig.Tests
+namespace EncryptamajigCore.Tests
 {
     [TestClass]
     public class AesManagedTests
