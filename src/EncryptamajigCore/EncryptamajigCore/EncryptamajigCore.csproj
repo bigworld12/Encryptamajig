@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/bigworld12/Encryptamajig</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/bigworld12/Encryptamajig/blob/master/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>moved to .Net Core</PackageReleaseNotes>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <PackageTags>e en enc encr encry encryp encrypt encrypta encryptam encryptama encryptamaj encryptamaji encryptamajig encryptamajigc encryptamajigco encryptamajigcor encryptamajigcore</PackageTags>
     <Product>EncryptamajigCore</Product>
   </PropertyGroup>
